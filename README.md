@@ -15,7 +15,7 @@ npm i -S
 ```bash
 var calculateFullAge = require('full-age-calculator');
 
-var getfullAge = calculateFullAge.getAge('birthDate'); // In yyyy-mm-dd format. example: 1998-12-25
+var getfullAge = calculateFullAge.getFullAge('birthDate'); // In yyyy-mm-dd format. example: 1998-12-25
 console.log(getfullAge)
 ```
 #### Output ####
@@ -26,7 +26,7 @@ console.log(getfullAge)
 ##### Get full age on some other Date ##### 
 ```bash
 
-var getfullAge = calculateFullAge.getAge('birthDate','otherDate'); // In yyyy-mm-dd format. Example: 1999-12-25
+var getfullAge = calculateFullAge.getFullAge('birthDate','otherDate'); // In yyyy-mm-dd format. Example: 1999-12-25
 console.log(getfullAge)
 ```
 #### Output ####
