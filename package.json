@@ -1,83 +1,42 @@
 {
-  "_args"                  : [
-    [
-      {
-        "raw"        : "full-age-calculator",
-        "scope"      : null,
-        "escapedName": "full-age-calculator",
-        "name"       : "full-age-calculator",
-        "rawSpec"    : "",
-        "spec"       : "latest",
-        "type"       : "tag"
-      }
-    ]
-  ],
-  "_from"                  : "full-age-calculator@latest",
-  "_id"                    : "full-age-calculator@0.0.2",
-  "_inCache"               : true,
-  "_location"              : "/full-age-calculator",
-  "_nodeVersion"           : "6.10.2",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp" : "tmp/full-age-calculator-0.0.2.tgz_1503164387754_0.6593085567001253"
+  "author": {
+    "name": "own Akhilesh and update by Dara"
   },
-  "_npmUser"               : {
-    "name" : "akhilsky",
-    "email": "akhilsky@gmail.com"
-  },
-  "_npmVersion"            : "3.10.10",
-  "_phantomChildren"       : {},
-  "_requested"             : {
-    "raw"        : "full-age-calculator",
-    "scope"      : null,
-    "escapedName": "full-age-calculator",
-    "name"       : "full-age-calculator",
-    "rawSpec"    : "",
-    "spec"       : "latest",
-    "type"       : "tag"
-  },
-  "_requiredBy"            : [
-    "#USER"
-  ],
-  "_resolved"              : "https://registry.npmjs.org/full-age-calculator/-/full-age-calculator-0.0.2.tgz",
-  "_shasum"                : "7ed1eaea12929784df168e94b634bf8df015eb37",
-  "_shrinkwrap"            : null,
-  "_spec"                  : "full-age-calculator",
-  "_where"                 : "",
-  "author"                 : {
-    "name": "Akhilesh"
-  },
-  "dependencies"           : {},
-  "description"            : "This repository will help you to get exact age and minor or adulst status from date string.",
-  "devDependencies"        : {},
-  "directories"            : {},
-  "dist"                   : {
-    "shasum" : "7ed1eaea12929784df168e94b634bf8df015eb37",
+  "dependencies": {},
+  "description": "This repository will help you to get exact age and minor or adulst status from date string.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "7ed1eaea12929784df168e94b634bf8df015eb37",
     "tarball": "https://registry.npmjs.org/full-age-calculator/-/full-age-calculator-0.0.2.tgz"
   },
-  "gitHead"                : "dca65eee30ca32f820e67695f84186a0bcc6632a",
-  "homepage"               : "https://bitbucket.org/akhilsky/full-age-calculator#readme",
-  "keywords"               : [
+  "gitHead": "dca65eee30ca32f820e67695f84186a0bcc6632a",
+  "homepage": "https://bitbucket.org/akhilsky/full-age-calculator#readme",
+  "keywords": [
     "age-calucaltor",
     "minor-status"
   ],
-  "license"                : "MIT",
-  "main"                   : "index.js",
-  "maintainers"            : [
+  "license": "MIT",
+  "files": [
+    "lib/**",
+    "index.js"
+  ],
+  "main": "./index.js",
+  "maintainers": [
     {
-      "name" : "akhilsky",
-      "email": "akhilsky@gmail.com"
+      "name": "Dara",
+      "email": "dara@kh71.com"
     }
   ],
-  "name"                   : "full-age-calculator",
-  "optionalDependencies"   : {},
-  "readme"                 : "ERROR: No README data found!",
-  "repository"             : {
+  "name": "kh71-age-calculator",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
     "type": "git",
-    "url" : "git+https://akhilsky@bitbucket.org/akhilsky/full-age-calculator.git"
+    "url": "git+https://github.com/DIT-K78/age.git"
   },
-  "scripts"                : {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version"                : "0.0.6"
+  "version": "0.0.5"
 }

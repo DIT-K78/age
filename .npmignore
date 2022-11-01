@@ -26,7 +26,6 @@ Temporary Items
 .apdisk
 
 node_modules
-dist
 *.lock
 tests
 test
@@ -36,5 +35,5 @@ build
 yarn-error.log
 package-lock.json
 cookie.txt
-test
-getFullAge.js
+.idea
+tsconfig.json
