@@ -7,7 +7,7 @@ This Package will help you to get exact age and minor or adulst status from Date
 ## Install
 
 ```bash
-npm i -S
+npm i -S kh71-age-calculator
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm i -S
 ##### Get full age on current Date
 
 ```bash
-var calculateFullAge = require('full-age-calculator');
+var calculateFullAge = require('kh71-age-calculator');
 
 var getfullAge = calculateFullAge.getFullAge('birthDate'); // In yyyy-mm-dd format. example: 1998-12-25
 console.log(getfullAge)
@@ -62,12 +62,12 @@ output: "Adult"
 
 ```bash
 var ageStatus = calculateFullAge.getAgeStatus('birthDate','otherDate'); In yyyy-mm-dd format. example: 1998-12-25, 2022-10-31
+console.log(ageStatus);
 ```
 
 #### Output
 
 ```bash
-console.log(ageStatus);
 output: "Adult"
 ```
 
